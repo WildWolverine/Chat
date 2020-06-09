@@ -1,0 +1,28 @@
+[
+    {
+      "current_dialog": {
+        "id":"cds5cds4",
+        "avatar": "https://avatarfiles.alphacoders.com/629/thumb-62922.jpg",
+        "message": "Quickly come to the meeting room 1B, we have a big serves issue",
+        "date": "04.06.2020",
+        "isMe": false
+      }},
+
+      {
+        "current_dialog": {
+        "id":"123",
+        "avatar": null,
+        "messageMine": "Im having breakfast right now, cant you wait for 10 minutes?",
+        "dateMine": "04.06.2020",
+        "isMe": true
+      }},
+
+      {
+        "current_dialog": {
+        "id":"cds5cds4",
+        "avatar": "https://avatarfiles.alphacoders.com/629/thumb-62922.jpg",
+        "message": "We are losing money! Quick!",
+        "date": "04.06.2020",
+        "isMe": false
+      }}
+]

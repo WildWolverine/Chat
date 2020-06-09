@@ -1,0 +1,75 @@
+
+.message__content{
+    display: flex;
+    margin: 20px 10px;
+}
+.message__avatar{
+   width: 38px;
+   height: 30px;
+   margin-right: 10px;
+   margin-bottom: 10px;
+}
+.message__avatar img{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.message__info{
+    flex-direction: column;
+}
+.message__background{
+    max-width: 100%;
+    height: 39px;
+    background-color: rgba(66, 66, 86, 1);
+    border-radius: 17px;
+    display: flex;
+    margin-bottom: 10px;
+}
+.message__background p {
+    font-size: 14px;
+    align-self: center;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 14px;
+}
+.message__date{
+    font-size: 13px;
+    color: black;
+    opacity: .4;
+    margin-left: 15px;
+}
+
+.message__content-itsMe{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 10px
+}
+.message__info-itsMe{
+    flex-direction: column;
+    margin: 10px 10px 20px 0px;
+}
+.message__background-itsMe{
+    max-width: 100%;
+    height: 39px;
+    background-color: rgba(229, 229, 229, 1);
+    border-radius: 17px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: flex;
+}
+.message__background-itsMe p {
+    font-size: 14px;
+    align-self: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 14px;
+}
+.message__date-itsMe{
+    font-size: 13px;
+    color: black;
+    opacity: .4;
+    position: absolute;
+    right: 18px;
+    margin-bottom: 10px;
+}

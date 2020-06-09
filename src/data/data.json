@@ -1,0 +1,67 @@
+[
+  {"dialog": {
+    "user" : {
+      "_id": "1",
+      "fullname": "Naruto",
+      "avatar": "https://avatarfiles.alphacoders.com/629/thumb-62922.jpg",
+      "isMe": false
+    },
+    "message": {
+      "text": "Quickly come to the meeting room 1B, we have a big serves issue",
+      "date": "04.06.2020"
+    },
+    "user" : {
+      "_id": "555",
+      "fullname": null,
+      "avatar": null,
+      "isMe": true
+    },
+    "message": {
+      "text": "Im having breakfast right now, cant you wait for 10 minutes?",
+      "date": "04.06.2020"
+    },
+    "user" : {
+      "_id": "1",
+      "fullname": "Naruto",
+      "avatar": "https://avatarfiles.alphacoders.com/629/thumb-62922.jpg",
+      "isMe": false
+    },
+    "message": {
+      "text": "We are losing money! Quick!",
+      "date": "04.06.2020"
+    }}},
+
+    {
+      "dialog": {
+          "user": {
+            "_id": "2",
+            "fullname": "Nikola",
+            "avatar": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Cat03.jpg",
+            "isMe": false
+          },
+          "message": {
+            "text": "Hola!",
+            "date": "07.06.2020"
+          }
+        }
+      },
+      {
+        "dialog":{
+            "user": {
+                "_id": "3",
+                "fullname": "Lisa",
+                "avatar": "https://s3.nat-geo.ru/images/2019/6/6/d1f35b6de10f422f82c14959cdb4fbb2.max-2000x1000.jpg",
+                "isMe": false
+              },
+              "message": {
+                "text": "Chao bombino!",
+                "date": "07.06.2020"
+             
+            }
+           } 
+      }
+]
+       
+      
+    
+  
