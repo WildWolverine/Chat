@@ -11,10 +11,10 @@ const [response, setResponse] = useState([])
 
 
    const addMessage = (text) => {
-    setMessage(dataMessage.push({current_dialog : {id:"123",
+    setMessage(dataMessage.push({current_dialog : {id:"555",
    avatar: null,
-   messageMine: text,
-   dateMine: "04.06.2025",
+   myMessage: text,
+   myDate: new Date(Date.now()).toLocaleString(),
    isMe: true}}))}
     
 
@@ -25,8 +25,9 @@ const [response, setResponse] = useState([])
              let responseMessage = dataMessage.push({current_dialog : {id:response.id,
             avatar: 'https://avatarfiles.alphacoders.com/629/thumb-62922.jpg',
             message: response.value,
-            date: "04.06.2025",
-            isMe: false}
+            date: new Date(Date.now()).toLocaleString(),
+            isMe: false
+        }
         })
             setResponse(responseMessage)
         })
@@ -34,7 +35,6 @@ const [response, setResponse] = useState([])
 }
     return (
         <div>
-            {console.log(dataMessage)}
             <div className='chats__dialog-messsage-item'>{dataMessage.map(item => 
                    <MessageItem
                    avatar = {item.current_dialog.avatar}

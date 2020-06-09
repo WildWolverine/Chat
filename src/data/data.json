@@ -49,14 +49,27 @@
         "dialog":{
             "user": {
                 "_id": "3",
-                "fullname": "Lisa",
+                "fullname": "Alisa",
                 "avatar": "https://s3.nat-geo.ru/images/2019/6/6/d1f35b6de10f422f82c14959cdb4fbb2.max-2000x1000.jpg",
                 "isMe": false
               },
               "message": {
                 "text": "Chao bombino!",
+                "date": "09.06.2020"
+            }
+           } 
+      },
+      {
+        "dialog":{
+            "user": {
+                "_id": "4",
+                "fullname": "Beekeeper",
+                "avatar": "https://nelsonsbeeremoval.com/wp-content/uploads/2020/03/home-h2-img.png",
+                "isMe": false
+              },
+              "message": {
+                "text": "Honey will be tomorrow",
                 "date": "07.06.2020"
-             
             }
            } 
       }

@@ -20,10 +20,10 @@ function MessageItem({avatar,text,date,isMe}) {
             : <div className='message__content-itsMe'> 
                 <div className='message__info-itsMe'>
                      <div className='message__background-itsMe'>
-                         <p className='message__text-itsMe'>{text.messageMine}</p>
+                         <p className='message__text-itsMe'>{text.myMessage}</p>
                 </div>
                 <span className='message__date-itsMe'>
-                    {date.dateMine}
+                    {date.myDate}
                 </span>
                 </div>
             </div>}

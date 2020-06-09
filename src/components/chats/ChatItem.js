@@ -6,7 +6,6 @@ function ChatItem ({user,avatar,message,date}) {
             <div className='chats__item'>
                 <div className='chats__item-users'>
                     <img src= {avatar.user.avatar} alt='Users icon'/>
-                    {/* <img>Тут будет еще значек тип галочка</img> */}
                 </div>
                 <div className='chats__users-info'>
                     <div className='chats__info-top'>

@@ -6,8 +6,8 @@ import Message from '../message/Message'
 
 function Home ()  {
  
-const iconUser = require('../../icon/icons-user.png')
-const iconSearch = require('../../icon/icons-search.png')
+const userIcon = require('../../icon/icons-user.png')
+
 
 
     return (
@@ -17,15 +17,11 @@ const iconSearch = require('../../icon/icons-search.png')
                 <div className='chats'>
                     <div className='chats__sidebar'>
                         <div className = 'chats__sidebar-header'>
-                            <img src={iconUser} alt='Users icon'></img>
+                            <img src={userIcon} alt='Users icon'></img>
                         </div>
-                        <div className = 'chats__sidebar-search'>
-                            <i className='chats__sidebar--icons-search'><img src={iconSearch}/></i>
-                            <input type='text' placeholder='Search or start new chat'></input>
-                        </div>
+                        
                         <div className = 'chats__sidebar-chats'>
-                            <div className='chats__sidebar-title'><h1>Chats</h1>
-                            </div>
+                           
                         <Chats/>
                                
                         </div>

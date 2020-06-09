@@ -12,8 +12,8 @@
         "current_dialog": {
         "id":"123",
         "avatar": null,
-        "messageMine": "Im having breakfast right now, cant you wait for 10 minutes?",
-        "dateMine": "04.06.2020",
+        "myMessage": "Im having breakfast right now, cant you wait for 10 minutes?",
+        "myDate": "04.06.2020",
         "isMe": true
       }},
 
